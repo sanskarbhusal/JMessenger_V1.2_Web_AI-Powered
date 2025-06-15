@@ -1,2 +1,2 @@
-docker build --no-cache -t nginx-image:latest .
+docker build -t nginx-image:latest .
 docker run --rm --name nginx-container -p 80:80 nginx-image:latest
